@@ -1,0 +1,7 @@
+{
+  "verbose": true,
+  "ignore": ["cache/*", "crashes/*"],
+  "scripts": {
+    "start": "nodemon ./start.js"
+  }
+}

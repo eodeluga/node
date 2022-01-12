@@ -1,0 +1,23 @@
+{
+    "exclude": [
+        "js/**/*"
+    ],
+    "include": [
+        "ts/**/*",
+        "ts/tests/**/*"
+    ],
+    "compileOnSave": true,
+    "compilerOptions": {
+        "outDir": "./js",
+        "rootDir": "./ts",
+        "allowJs": true,
+        "target": "es2017",
+        "module": "commonjs",
+        "moduleResolution": "node",
+		"sourceMap": true,
+		"typeRoots": [ "node_modules/@types/" ],
+        "types": [
+            "node"
+          ]
+    }
+}
